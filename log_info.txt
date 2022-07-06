@@ -1,0 +1,65 @@
+2023-06-24 17:47:53.253  INFO 13988 --- [http-nio-2022-exec-7] c.l.employee.controller.AuthController   : Enterd into generateToken method
+2023-06-24 17:47:53.403  INFO 13988 --- [http-nio-2022-exec-7] c.l.e.s.impl.UserDetailsServiceImpl      : Enterd into loadUserByUsername method
+2023-06-24 17:47:54.169  INFO 13988 --- [http-nio-2022-exec-7] c.l.e.s.impl.UserDetailsServiceImpl      : Enterd into loadUserByUsername method
+2023-06-24 17:48:11.983  INFO 13988 --- [http-nio-2022-exec-6] c.l.e.s.impl.UserDetailsServiceImpl      : Enterd into loadUserByUsername method
+2022-06-24 17:49:39.056  INFO 13988 --- [http-nio-2022-exec-10] c.l.e.s.impl.UserDetailsServiceImpl      : Enterd into loadUserByUsername method
+2022-06-24 17:52:15.622  INFO 13988 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-24 17:52:15.623  INFO 13988 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-06-24 17:52:17.769  INFO 13988 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-06-24 17:52:17.869  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : Starting EmployeeApplication using Java 15.0.2 on HYD-Akash_Kumar_Raghowar with PID 13988 (C:\Users\Mohd Umer Faisal\git\New folder (2)\LSI-Employee-Tracker\target\classes started by Mohd Umer Faisal in C:\Users\Mohd Umer Faisal\git\New folder (2)\LSI-Employee-Tracker)
+2022-06-24 17:52:17.869  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-06-24 17:52:18.522  INFO 13988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-24 17:52:18.618  INFO 13988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 5 JPA repository interfaces.
+2022-06-24 17:52:18.766  INFO 13988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2022 (http)
+2022-06-24 17:52:18.767  INFO 13988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-24 17:52:18.767  INFO 13988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-24 17:52:18.791  INFO 13988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-24 17:52:18.791  INFO 13988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2022-06-24 17:52:18.843  INFO 13988 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-24 17:52:18.850  INFO 13988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-06-24 17:52:21.439  INFO 13988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-06-24 17:52:21.439  INFO 13988 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-06-24 17:52:27.650  INFO 13988 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-24 17:52:27.652  INFO 13988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-24 17:52:27.872  WARN 13988 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-24 17:52:28.124  INFO 13988 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 17:52:28.167  INFO 13988 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fbad26d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1597e18, org.springframework.security.web.context.SecurityContextPersistenceFilter@75286b75, org.springframework.security.web.header.HeaderWriterFilter@1e21df45, org.springframework.security.web.authentication.logout.LogoutFilter@2bed1a31, com.lancesoft.employee.securityconfig.JwtAuthenticationFilter@4ba72b59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c43a0b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c089b88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@522473dc, org.springframework.security.web.session.SessionManagementFilter@3b614e0d, org.springframework.security.web.access.ExceptionTranslationFilter@3bde5f95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36e4e140]
+2022-06-24 17:52:28.251  INFO 13988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-24 17:52:28.384  INFO 13988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2022 (http) with context path ''
+2022-06-24 17:52:28.386  INFO 13988 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-06-24 17:52:28.387  INFO 13988 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-06-24 17:52:28.391  INFO 13988 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-06-24 17:52:28.464  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : Started EmployeeApplication in 10.631 seconds (JVM running for 751.312)
+2022-06-24 17:52:28.467  INFO 13988 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-24 17:52:46.504  INFO 13988 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-24 17:52:46.505  INFO 13988 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-06-24 17:52:48.628  INFO 13988 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-06-24 17:52:48.729  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : Starting EmployeeApplication using Java 15.0.2 on HYD-Akash_Kumar_Raghowar with PID 13988 (C:\Users\Mohd Umer Faisal\git\New folder (2)\LSI-Employee-Tracker\target\classes started by Mohd Umer Faisal in C:\Users\Mohd Umer Faisal\git\New folder (2)\LSI-Employee-Tracker)
+2022-06-24 17:52:48.730  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-06-24 17:52:49.145  INFO 13988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-24 17:52:49.173  INFO 13988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
+2022-06-24 17:52:49.310  INFO 13988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2022 (http)
+2022-06-24 17:52:49.311  INFO 13988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-24 17:52:49.311  INFO 13988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-24 17:52:49.339  INFO 13988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-24 17:52:49.339  INFO 13988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2022-06-24 17:52:49.384  INFO 13988 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-24 17:52:49.392  INFO 13988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-06-24 17:52:52.082  INFO 13988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-06-24 17:52:52.084  INFO 13988 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-06-24 17:52:58.364  INFO 13988 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-24 17:52:58.365  INFO 13988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-24 17:52:58.497  WARN 13988 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-24 17:52:58.629  INFO 13988 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 17:52:58.659  INFO 13988 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2c61e68e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a2b90f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f718b10, org.springframework.security.web.header.HeaderWriterFilter@6979dd23, org.springframework.security.web.authentication.logout.LogoutFilter@6e9ebd13, com.lancesoft.employee.securityconfig.JwtAuthenticationFilter@5d11114f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d246920, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a932962, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2784f6cb, org.springframework.security.web.session.SessionManagementFilter@6da74ce4, org.springframework.security.web.access.ExceptionTranslationFilter@34d4d26c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2669f06f]
+2022-06-24 17:52:58.718  INFO 13988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-24 17:52:58.803  INFO 13988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2022 (http) with context path ''
+2022-06-24 17:52:58.804  INFO 13988 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-06-24 17:52:58.804  INFO 13988 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-06-24 17:52:58.806  INFO 13988 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-06-24 17:52:58.866  INFO 13988 --- [restartedMain] c.l.employee.EmployeeApplication         : Started EmployeeApplication in 10.169 seconds (JVM running for 781.714)
+2022-06-24 17:52:58.868  INFO 13988 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-24 17:53:18.172  INFO 13988 --- [http-nio-2022-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 17:53:18.173  INFO 13988 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-24 17:53:18.174  INFO 13988 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-24 17:53:18.181  INFO 13988 --- [http-nio-2022-exec-2] c.l.e.s.impl.UserDetailsServiceImpl      : Enterd into loadUserByUsername method
